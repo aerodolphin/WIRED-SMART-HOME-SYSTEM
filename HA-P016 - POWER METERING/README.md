@@ -62,6 +62,6 @@ sensor:
     icon: mdi:speedometer
 ```
 
-## \## THE WAY TO GO: SDM120 modbus RTU nodered
+## THE WAY TO GO: SDM120 modbus RTU nodered
 
 [https://community.home-assistant.io/t/no-response-from-modbus-slave-2-register-0/58943/33?u=aerodolphin](https://community.home-assistant.io/t/no-response-from-modbus-slave-2-register-0/58943/33?u=aerodolphin)
