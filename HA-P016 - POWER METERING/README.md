@@ -6,8 +6,9 @@ Measure the power consumption using a EASTRON SDM120 device.
 
 *   1x SDM 120
 *   1x RS485 TLL
-*   1x Nodemcu v3 ou Wemos D1  
-     
+*   1x Nodemcu v3 ou Wemos D1
+
+[LINK TO INFO.md](info.md)
 
 ```
 sensor:
