@@ -47,6 +47,8 @@ Use Shielded twisted-pair cable if the bus cable exceeds 3m.
 Each shield must be grounded at one side only  
 Overvoltage/overcurrent transient protection should be provided
 
+![](https://user-images.githubusercontent.com/491062/121211589-2227f800-c86c-11eb-8e85-a2fb182821a6.png)
+
 ## FAQ
 
 Can we run the RS485 cable adjacent to or in the same conduit with mains wires?  
