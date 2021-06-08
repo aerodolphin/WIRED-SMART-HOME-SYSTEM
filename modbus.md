@@ -50,10 +50,10 @@ Overvoltage/overcurrent transient protection should be provided
 
 ## FAQ
 
-Can we run the RS485 cable adjacent to or in the same conduit with mains wires?  
+**Can we run the RS485 cable adjacent to or in the same conduit with mains wires?** 
 No, There may be interference from the high voltages and currents present on the mains wires, and if there is any insulation fault, arcing, etc. on the mains wires, it could put dangerous voltages on the low-voltage RS485 network cable.
 
-Can I use Cat 5e-UTP instead of Shielded cables?  
+**Can I use Cat 5e-UTP instead of Shielded cables?**  
 No. Cat 5e-UTP (unshielded twisted pair) which may work over shorter distances in less demanding applications with low EMI noise levels. Due to the small #24 AWG solid wires, which are typically used in Cat 5 cables, can break easily and leave system unmonitored.
 
 # MODBUS TCP - ETHERNET
