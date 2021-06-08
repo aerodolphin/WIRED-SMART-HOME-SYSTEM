@@ -13,6 +13,10 @@ In order to avoid this problem, it is recommended that the cable of same color s
 
 The easiest and the best way to connect the devices in a MODBUS RTU – RS485 communication is using DAISY CHAIN method. It is shown below. Any other way of connecting the devices together is not recommended as it might cause communication issues or damage to the overall system.
 
+1FkbFuVAs5r0fhhwS7tb8BNOn2Aoa6TuG
+https://drive.google.com/file/d//view
+
+
 ### Rule 3: Maximum distances and number of slaves
 
 The maximum length of the communication cable should be no longer than 800m \[recommended\].The maximum number of devices that can be connected over this network can be 32\[for Modbus RTU\], including the master device \[TrackSo data logger in our case\]
@@ -27,13 +31,15 @@ In order to avoid signal reflections, it is required to turn on the 120 ohm term
 
 For MODBUS communications, Properly grounding your instrument is important, especially when working close to high voltage sources such as PV arrays. An instrument that is not appropriately grounded can give false readings, fail completely or turn into a safety hazard
 
-QUICK TIP-If you are encountering noise or irregular or abnormal problems with a Modbus serial link, the problem is likely related to grounding, incorrect shielding, or wiring power wires next to Modbus wiring.
+**QUICK TIP** \- If you are encountering noise or irregular or abnormal problems with a Modbus serial link, the problem is likely related to grounding, incorrect shielding, or wiring power wires next to Modbus wiring.
 
 ### Rule 6: Type of cables to use
 
-For MODBUS communications, a shielded and twisted pair cable is used. One example of such cable is Belden 3105A. But any cable with similar characteristics can be used to connect all the devices together. The shielding can be of 2 types: braided \[like a mesh of thin conducting wires\] or like a foil \[consiting of a thin sheet of metal covering the twisted wires\]. Both types of shielding are OK.
+For MODBUS communications, a shielded and twisted pair cable is used. One example of such cable is Belden 3105A (or alternative FSC 2201PODGH-E00). But any cable with similar characteristics can be used to connect all the devices together. The shielding can be of 2 types: braided \[like a mesh of thin conducting wires\] or like a foil \[consiting of a thin sheet of metal covering the twisted wires\]. Both types of shielding are OK.
 
-QUICK TIP- This arrangement improves immunity to electromagnetic disturbances because the cable forms a series of successive coils, each of which faces in the opposite direction to the next one: in this manner any magnetic field in the environment traverses each pair of coils in opposite directions and its effect is thus very reduced (theoretically, the effect on each coil is exactly the opposite of the effect on the next one and thus the effect is cancelled).
+**QUICK TIP** - This arrangement improves immunity to electromagnetic disturbances because the cable forms a series of successive coils, each of which faces in the opposite direction to the next one: in this manner any magnetic field in the environment traverses each pair of coils in opposite directions and its effect is thus very reduced (theoretically, the effect on each coil is exactly the opposite of the effect on the next one and thus the effect is cancelled).
+
+1gCPjl8c5CvojD5ZOtaJKtU383Vx5w8uV
 
 **Wiring characteristics**  
 0.22–0.5 mm2 for runs up to 300 meters  
