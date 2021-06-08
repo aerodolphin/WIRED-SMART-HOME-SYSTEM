@@ -33,7 +33,7 @@ For MODBUS communications, Properly grounding your instrument is important, espe
 
 ### Rule 6: Type of cables to use
 
-For MODBUS communications, a shielded and twisted pair cable is used. One example of such cable is Belden 3105A (or alternative FSC 2201PODGH-E00). But any cable with similar characteristics can be used to connect all the devices together. The shielding can be of 2 types: braided \[like a mesh of thin conducting wires\] or like a foil \[consiting of a thin sheet of metal covering the twisted wires\]. Both types of shielding are OK.
+For MODBUS communications, a shielded and twisted pair cable is used. One example of such cable is Belden 3105A (or alternative FSC 2201PODGH-E00 or 2170204). But any cable with similar characteristics can be used to connect all the devices together. The shielding can be of 2 types: braided \[like a mesh of thin conducting wires\] or like a foil \[consiting of a thin sheet of metal covering the twisted wires\]. Both types of shielding are OK.
 
 **QUICK TIP** - This arrangement improves immunity to electromagnetic disturbances because the cable forms a series of successive coils, each of which faces in the opposite direction to the next one: in this manner any magnetic field in the environment traverses each pair of coils in opposite directions and its effect is thus very reduced (theoretically, the effect on each coil is exactly the opposite of the effect on the next one and thus the effect is cancelled).
 
