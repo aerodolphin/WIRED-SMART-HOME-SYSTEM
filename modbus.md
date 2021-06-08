@@ -13,9 +13,7 @@ In order to avoid this problem, it is recommended that the cable of same color s
 
 The easiest and the best way to connect the devices in a MODBUS RTU – RS485 communication is using DAISY CHAIN method. It is shown below. Any other way of connecting the devices together is not recommended as it might cause communication issues or damage to the overall system.
 
-![2-wire rs485 connection](https://drive.google.com/uc?id=1FkbFuVAs5r0fhhwS7tb8BNOn2Aoa6TuG)
-
-![](https://raw.githubusercontent.com/aerodolphin/SMART-HOME/main/images/modbus_2-wire-rs485-connection.png?token=AADX4NSO3KXXQOLL3JZRRE3AZDDYK)
+![2-wire rs485 connection](https://raw.githubusercontent.com/aerodolphin/SMART-HOME/main/images/modbus_2-wire-rs485-connection.png?token=AADX4NSO3KXXQOLL3JZRRE3AZDDYK)
 
 ### Rule 3: Maximum distances and number of slaves
 
@@ -39,7 +37,7 @@ For MODBUS communications, a shielded and twisted pair cable is used. One exampl
 
 **QUICK TIP** - This arrangement improves immunity to electromagnetic disturbances because the cable forms a series of successive coils, each of which faces in the opposite direction to the next one: in this manner any magnetic field in the environment traverses each pair of coils in opposite directions and its effect is thus very reduced (theoretically, the effect on each coil is exactly the opposite of the effect on the next one and thus the effect is cancelled).
 
-![Shilded twisted pair cable](https://drive.google.com/uc?id=1KZz4a1Pn-xqIAGfwE75daDH-w04oWQPa)
+![Shilded twisted pair cable](https://raw.githubusercontent.com/aerodolphin/SMART-HOME/main/images/modbus_shilded-twisted-pair.jpg?token=AADX4NRERNKQLI6MJRHSWZTAZDDYQ)
 
 **Wiring characteristics**  
 0.22–0.5 mm2 for runs up to 300 meters  
@@ -49,7 +47,6 @@ Use Shielded twisted-pair cable if the bus cable exceeds 3m.
 Each shield must be grounded at one side only  
 Overvoltage/overcurrent transient protection should be provided
 
-![](https://user-images.githubusercontent.com/491062/121211589-2227f800-c86c-11eb-8e85-a2fb182821a6.png)
 
 ## FAQ
 
