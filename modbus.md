@@ -37,7 +37,7 @@ For MODBUS communications, a shielded and twisted pair cable is used. One exampl
 
 **QUICK TIP** - This arrangement improves immunity to electromagnetic disturbances because the cable forms a series of successive coils, each of which faces in the opposite direction to the next one: in this manner any magnetic field in the environment traverses each pair of coils in opposite directions and its effect is thus very reduced (theoretically, the effect on each coil is exactly the opposite of the effect on the next one and thus the effect is cancelled).
 
-![Shilded twisted pair cable](https://drive.google.com/uc?id=1gCPjl8c5CvojD5ZOtaJKtU383Vx5w8uV | width=150)
+![Shilded twisted pair cable](https://drive.google.com/uc?id=1gCPjl8c5CvojD5ZOtaJKtU383Vx5w8uV = 150x)
 
 **Wiring characteristics**  
 0.22–0.5 mm2 for runs up to 300 meters  
