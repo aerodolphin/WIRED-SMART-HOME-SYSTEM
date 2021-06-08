@@ -16,3 +16,5 @@ As you are directly talking to the inverter you can update values as quick or sl
 I am only reading values at the moment, but you can program the Inverter / Battery over Modbus.
 
 On the new Hybrids we have an Ethernet port (RJ45) on the inverter Motherboard it’s self, this is under the front cover. As well as terminals and an RJ45 for RS485 (ModBus).
+
+More informations about ModBus communication protocol in [here](https://github.com/aerodolphin/SMART-HOME/blob/main/modbus.md)!
