@@ -15,6 +15,8 @@ The easiest and the best way to connect the devices in a MODBUS RTU – RS485 co
 
 ![2-wire rs485 connection](https://drive.google.com/uc?id=1FkbFuVAs5r0fhhwS7tb8BNOn2Aoa6TuG)
 
+![](https://raw.githubusercontent.com/aerodolphin/SMART-HOME/main/images/modbus_2-wire-rs485-connection.png?token=AADX4NSO3KXXQOLL3JZRRE3AZDDYK)
+
 ### Rule 3: Maximum distances and number of slaves
 
 The maximum length of the communication cable should be no longer than 800m \[recommended\].The maximum number of devices that can be connected over this network can be 32\[for Modbus RTU\], including the master device \[TrackSo data logger in our case\]
