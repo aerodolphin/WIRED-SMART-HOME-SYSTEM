@@ -50,34 +50,7 @@ After try some open source smart home softwares (openHAB, Home Assistant and Dom
 Regarding to the network topology the ideal was the star topology where the hub acts as a central point of communication, and data flows between devices and the hub. This topology offers high reliability and ease of management, but it requires more cabling compared to other topologies. Because of that disadvantage I chose what I called of an hybrid solution where we have some micro hub's connected to a central hub where we have the Home Assistant and connected to these micro hub's we also have some devices connected in a bus topology (I2C protocol).
 
 
-![alt text](https://drive.google.com/uc?id=1DeBX2HS4ZQM6OJaZdMSIzAMpnMHtWVtp)
-
-
-
-
-
-
-
-## HOW TO INSERT IMAGES FROM GOOGLE DRIVE
-
-1.  In Google Drive copy the URL from Share
-
-https://drive.google.com/file/d/1hh8nTVjhxHy7q7fojxTQ-47QJweu6M-2/view
-
-1.  Take from the URL the photo ID between "d/" and "/view"
-
-In this case the ID is: 1hh8nTVjhxHy7q7fojxTQ-47QJweu6M-2
-
-1.  Insert the ID into the github image code:
-
-```
-![alt text](https://drive.google.com/uc?id=1hh8nTVjhxHy7q7fojxTQ-47QJweu6M-2)
-```
-
-![alt text](https://drive.google.com/uc?id=1hh8nTVjhxHy7q7fojxTQ-47QJweu6M-2)
-
-
-
+![Smart Home System Hybrid Topology](https://drive.google.com/uc?id=1DeBX2HS4ZQM6OJaZdMSIzAMpnMHtWVtp)
 
 
 
