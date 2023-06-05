@@ -1,4 +1,4 @@
-# SMART-HOME
+# WIRED SMART HOME SYSTEM
 
 
 ## Why a Smart Home System
