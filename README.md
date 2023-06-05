@@ -53,4 +53,12 @@ Regarding to the network topology the ideal was the star topology where the hub 
 ![Smart Home System Hybrid Topology](https://drive.google.com/uc?id=1DeBX2HS4ZQM6OJaZdMSIzAMpnMHtWVtp)
 
 
+## Devices in development
+
+* WIO-HUB - Wired Input/Output Hub
+* WOD - Wired Occupancy Detector
+* WIC - Wired Irrigation Controller
+* WAIRQ - Wired Air Quality Sensor
+
+The device names can be changed. I'm accepting suggestions for the names and references.
 
