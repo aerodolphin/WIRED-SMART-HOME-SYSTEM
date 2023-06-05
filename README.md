@@ -55,6 +55,7 @@ Regarding to the network topology the ideal was the star topology where the hub 
 
 ## Devices in development
 
+* ESP32-ETH - ESP32 with Ethernet
 * WIO-HUB - Wired Input/Output Hub
 * WOD - Wired Occupancy Detector
 * WIC - Wired Irrigation Controller
