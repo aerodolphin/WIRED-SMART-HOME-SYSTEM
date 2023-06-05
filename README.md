@@ -50,7 +50,7 @@ After try some open source smart home softwares (openHAB, Home Assistant and Dom
 Regarding to the network topology the ideal was the star topology where the hub acts as a central point of communication, and data flows between devices and the hub. This topology offers high reliability and ease of management, but it requires more cabling compared to other topologies. Because of that disadvantage I chose what I called of an hybrid solution where we have some micro hub's connected to a central hub where we have the Home Assistant and connected to these micro hub's we also have some devices connected in a bus topology (I2C protocol).
 
 
-
+![alt text](https://drive.google.com/uc?id=1DeBX2HS4ZQM6OJaZdMSIzAMpnMHtWVtp)
 
 
 
