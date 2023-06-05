@@ -53,7 +53,7 @@ Regarding to the network topology the ideal was the star topology where the hub 
 ![Smart Home System Hybrid Topology](https://drive.google.com/uc?id=1DeBX2HS4ZQM6OJaZdMSIzAMpnMHtWVtp)
 
 
-## Devices in development
+## Devices under development
 
 * ESP32-ETH - ESP32 with Ethernet
 * WIO-HUB - Wired Input/Output Hub
