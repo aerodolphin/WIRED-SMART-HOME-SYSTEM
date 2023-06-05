@@ -16,8 +16,13 @@ The main features are:
 
 
 
-
 ![ESP32-ETH 3D View](https://drive.google.com/uc?id=1KbBaRBdLsomrQGRVvgyqmOY30YwwrDql)
 
 
 ![ESP32-ETH Top View](https://drive.google.com/uc?id=1MIIwG2e0fihbz8InjSmZnSODPgDao6gI)
+
+
+
+Photo of the prototype boards
+
+The first prototype board was tested and is working well. The only problem found was with the flasher board. The ESP is not entering in the programming mode automaticaly. I think the timings are not correted. They need to be adjusted with other capacitor value. Need more testing.
