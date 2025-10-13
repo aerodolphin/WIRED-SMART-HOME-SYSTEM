@@ -22,11 +22,11 @@ My main motivation is from my love of technology and creating things that could 
 
 ## The Smart Home System
 
-After try some open source smart home softwares (openHAB, Home Assistant and Domoticz) I chose the Home Assistant platform.
+After try some open source smart home softwares (openHAB, Home Assistant and Domoticz) I choose the Home Assistant platform.
 
-Regarding to the network topology the ideal was the star topology where the hub acts as a central point of communication, and data flows between devices and the hub. This topology offers high reliability and ease of management, but it requires more cabling compared to other topologies. Because of that disadvantage I chose what I called of an hybrid solution where we have some micro hub's connected to a central hub where we have the Home Assistant and connected to these micro hub's we also have some devices connected in a bus topology (I2C protocol).
+Regarding to the network topology the ideal was the star topology where the hub acts as a central point of communication, and data flows between devices and the hub. This topology offers high reliability and ease of management, but it requires more cabling compared to other topologies. Because of that disadvantage I choosed what I called of an hybrid solution where we have some micro hub's connected to a central hub where we have the Home Assistant and connected to these micro hub's we also have some devices connected in a bus topology (I2C protocol).
 
-For me it's very important to have the majority of the devices connected buy wire and running locally (independently of clouds and Internet). 
+For me it's very important to have the majority of the devices connected by wire and running locally (independently of clouds and Internet). 
 
 ![Smart Home System Hybrid Topology](https://drive.google.com/uc?id=1DeBX2HS4ZQM6OJaZdMSIzAMpnMHtWVtp)
 
