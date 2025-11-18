@@ -17,7 +17,8 @@ It looks cool to showing off to our friends that we can turn on and off some lig
 
 ## Motivation
 
-My main motivation is from my love of technology and creating things that could improve our lives in someway. Combining with the fact I'm building a new home, It's the perfect time to implement a smart home system capable of saving some time and improving my family experience. I hope this subject is of interest to some people so that we can create an online community for sharing experience and knowledge. With a smart system we can save energy, reduce costs, create automations, create an alarm system, simplify daily routines, customize things, etc.
+My main motivation is from my love of technology and creating things that could improve our lives in someway. Combining with the fact I'm building a new home, It's the perfect time to implement a smart home system capable of saving some time and improving my family experience. I hope this subject is of interest to some people so that we can create an online community for sharing experience and knowledge. With a smart system we can save energy, reduce costs, create automations, create an alarm system, simplify daily routines, customize things, etc.~ 
+
 
 
 ## The Smart Home System
@@ -28,63 +29,59 @@ Regarding to the network topology the ideal was the star topology where the hub 
 
 For me it's very important to have the majority of the devices connected by wire and running locally (independently of clouds and Internet). 
 
-![Smart Home System Hybrid Topology](https://drive.google.com/uc?id=1DeBX2HS4ZQM6OJaZdMSIzAMpnMHtWVtp)
+![Smart Home System Hybrid Topology](https://drive.google.com/uc?id=1DeBX2HS4ZQM6OJaZdMSIzAMpnMHtWVtp)  
 
 
-🏠 Smart Home Network Topology
+
+## Smart Home Network Topology
 
 Before describing my smart home system, let’s review the main types of network topologies used in IoT and smart home environments.
 
-<img src="/assets/img1.jpg" width="300" alt="My image">
+<p align="center">
+<img src="/images/network-topology-types-diagram.png" width="950" alt="My image">
+</p>
 
-1. Point-to-Point Topology
+### 1. Point-to-Point Topology
 
-A direct connection between two devices — for example, a sensor connected directly to a controller.
-Advantages: Very simple and reliable for two-device communication. No interference or congestion from other devices.
-Disadvantages: Not scalable — each new device needs its own connection. Limited use in larger systems.
+A direct connection between two devices — for example, a sensor connected directly to a controller.  
+<ins>**Advantages:**</ins> Very simple and reliable for two-device communication. No interference or congestion from other devices.  
+<ins>**Disadvantages:**</ins> Not scalable — each new device needs its own connection. Limited use in larger systems.
 
-2. Bus Topology
+### 2. Bus Topology
 
-All devices share a single communication line (bus).
+All devices share a single communication line (bus).  
+<ins>**Advantages:**</ins> Cost-effective and uses less cabling. Simple linear structure.  
+<ins>**Disadvantages:**</ins> Difficult to troubleshoot. A single cable fault can bring down the entire network. Data collisions can occur when many devices transmit at once.
 
-Advantages: Cost-effective and uses less cabling. Simple linear structure.
-Disadvantages: Difficult to troubleshoot. A single cable fault can bring down the entire network. Data collisions can occur when many devices transmit at once.
+### 3. Ring Topology
+Each device connects to exactly two others, forming a closed loop.  
+<ins>**Advantages:**</ins> Predictable data flow and timing. Each device acts as a repeater, strengthening the signal.  
+<ins>**Disadvantages:**</ins> A single failure in the loop can interrupt the entire network. Adding or removing devices can be complex.
 
-3. Ring Topology
+### 4. Star Topology
 
-Each device connects to exactly two others, forming a closed loop.
-
-Advantages: Predictable data flow and timing. Each device acts as a repeater, strengthening the signal.
-Disadvantages: A single failure in the loop can interrupt the entire network. Adding or removing devices can be complex.
-
-4. Star Topology
-
-All devices connect to a central hub or controller (such as a router or Home Assistant server).
-
-Advantages: Easy to set up and manage. A failure in one device doesn’t affect the others.
-Disadvantages: If the central hub fails, the entire network stops working. Requires more cabling than other topologies.
+All devices connect to a central hub or controller (such as a router or Home Assistant server).  
+<ins>**Advantages:**</ins> Easy to set up and manage. A failure in one device doesn’t affect the others.  
+<ins>**Disadvantages:**</ins> If the central hub fails, the entire network stops working. Requires more cabling than other topologies.
 
 
-5. Tree Topology
+### 5. Tree Topology
 
-A hierarchical combination of star networks connected in a tree-like structure.
+A hierarchical combination of star networks connected in a tree-like structure.  
+<ins>**Advantages:**</ins> Well-organized and scalable. Easy to segment and manage devices by area or function.  
+<ins>**Disadvantages:**</ins> If the main “trunk” (root connection) fails, entire branches can lose communication. Requires careful planning and structured cabling.
 
-Advantages: Well-organized and scalable. Easy to segment and manage devices by area or function.
+### 6. Mesh Topology
 
-Disadvantages: If the main “trunk” (root connection) fails, entire branches can lose communication. Requires careful planning and structured cabling.
+Each device connects to several others, creating multiple paths for data transmission.  
+<ins>**Advantages:**</ins> Very reliable and fault-tolerant — if one path fails, data finds another route. Ideal for wireless IoT networks (like Zigbee or Thread).  
+<ins>**Disadvantages:**</ins> More complex setup and configuration. Higher communication overhead and cost.
 
-6. Mesh Topology
-
-Each device connects to several others, creating multiple paths for data transmission.
-
-Advantages: Very reliable and fault-tolerant — if one path fails, data finds another route. Ideal for wireless IoT networks (like Zigbee or Thread).
-
-Disadvantages: More complex setup and configuration. Higher communication overhead and cost.
-
-7. Hybrid Topology
+### 7. Hybrid Topology
 
 A combination of two or more topologies (e.g., star + mesh, or tree + bus).
-This is the most flexible design and is often used in smart home systems.
+This is the most flexible design and is often used in smart home systems.  
+
 
 
 
