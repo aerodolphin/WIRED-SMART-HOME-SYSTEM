@@ -31,6 +31,63 @@ For me it's very important to have the majority of the devices connected by wire
 ![Smart Home System Hybrid Topology](https://drive.google.com/uc?id=1DeBX2HS4ZQM6OJaZdMSIzAMpnMHtWVtp)
 
 
+🏠 Smart Home Network Topology
+
+Before describing my smart home system, let’s review the main types of network topologies used in IoT and smart home environments.
+
+<img src="/assets/img1.jpg" width="300" alt="My image">
+
+1. Point-to-Point Topology
+
+A direct connection between two devices — for example, a sensor connected directly to a controller.
+Advantages: Very simple and reliable for two-device communication. No interference or congestion from other devices.
+Disadvantages: Not scalable — each new device needs its own connection. Limited use in larger systems.
+
+2. Bus Topology
+
+All devices share a single communication line (bus).
+
+Advantages: Cost-effective and uses less cabling. Simple linear structure.
+Disadvantages: Difficult to troubleshoot. A single cable fault can bring down the entire network. Data collisions can occur when many devices transmit at once.
+
+3. Ring Topology
+
+Each device connects to exactly two others, forming a closed loop.
+
+Advantages: Predictable data flow and timing. Each device acts as a repeater, strengthening the signal.
+Disadvantages: A single failure in the loop can interrupt the entire network. Adding or removing devices can be complex.
+
+4. Star Topology
+
+All devices connect to a central hub or controller (such as a router or Home Assistant server).
+
+Advantages: Easy to set up and manage. A failure in one device doesn’t affect the others.
+Disadvantages: If the central hub fails, the entire network stops working. Requires more cabling than other topologies.
+
+
+5. Tree Topology
+
+A hierarchical combination of star networks connected in a tree-like structure.
+
+Advantages: Well-organized and scalable. Easy to segment and manage devices by area or function.
+
+Disadvantages: If the main “trunk” (root connection) fails, entire branches can lose communication. Requires careful planning and structured cabling.
+
+6. Mesh Topology
+
+Each device connects to several others, creating multiple paths for data transmission.
+
+Advantages: Very reliable and fault-tolerant — if one path fails, data finds another route. Ideal for wireless IoT networks (like Zigbee or Thread).
+
+Disadvantages: More complex setup and configuration. Higher communication overhead and cost.
+
+7. Hybrid Topology
+
+A combination of two or more topologies (e.g., star + mesh, or tree + bus).
+This is the most flexible design and is often used in smart home systems.
+
+
+
 ## Why a Wired Smart Home System
 
 A wired smart home system offers several advantages over a wireless system. That's why I would like to focus on that. I quickly discovered that there are not many wired systems and devices available on the market. That's why I decided to develop some and share.
