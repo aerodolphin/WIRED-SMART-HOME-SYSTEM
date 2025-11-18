@@ -17,17 +17,19 @@ It looks cool to showing off to our friends that we can turn on and off some lig
 
 ## Motivation
 
-My main motivation is from my love of technology and creating things that could improve our lives in someway. Combining with the fact I'm building a new home, It's the perfect time to implement a smart home system capable of saving some time and improving my family experience. I hope this subject is of interest to some people so that we can create an online community for sharing experience and knowledge. With a smart system we can save energy, reduce costs, create automations, create an alarm system, simplify daily routines, customize things, etc.~ 
+My main motivation is from my love of technology and creating things that could improve our lives in someway. Combining with the fact I'm building a new home, It's the perfect time to implement a smart home system capable of saving some time and improving my family experience. I hope this subject is of interest to some people so that we can create an online community for sharing experience and knowledge. With a smart system we can save energy, reduce costs, create automations, create an alarm system, simplify daily routines, customize things, etc.
 
 
 
 ## The Smart Home System
 
-After try some open source smart home softwares (openHAB, Home Assistant and Domoticz) I choose the Home Assistant platform.
+After try some open source smart home softwares (openHAB, Home Assistant and Domoticz), I have choosen the Home Assistant platform.
 
-Regarding to the network topology the ideal was the star topology where the hub acts as a central point of communication, and data flows between devices and the hub. This topology offers high reliability and ease of management, but it requires more cabling compared to other topologies. Because of that disadvantage I choosed what I called of an hybrid solution where we have some micro hub's connected to a central hub where we have the Home Assistant and connected to these micro hub's we also have some devices connected in a bus topology (I2C protocol).
+www.home-assistant.io
 
-For me it's very important to have the majority of the devices connected by wire and running locally (independently of clouds and Internet). 
+Regarding to the network topology the ideal was the star topology where the hub acts as a central point of communication, and data flows between devices and the hub. This topology offers high reliability and ease of management, but it requires more cabling compared to other topologies. Because of that disadvantage I choosed what I called of an hybrid solution where we have some micro hub's connected to a central hub where we have the Home Assistant and connected to these micro hub's we also have some devices connected in a bus topology (I2C protocol). Check bellow the network topologies that exists and their advantages and disadvantages.
+
+Another feature very important is to have the majority of the devices connected by wire and running locally (independent of clouds and Internet). 
 
 ![Smart Home System Hybrid Topology](https://drive.google.com/uc?id=1DeBX2HS4ZQM6OJaZdMSIzAMpnMHtWVtp)  
 
