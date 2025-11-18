@@ -1,7 +1,7 @@
 # WIRED SMART HOME SYSTEM
 
 
-## Why a Smart Home System
+##Why a Smart Home System
 
 When considering the integration of new technology into our lives, it is crucial to contemplate the advantages it brings. This typically revolves around the following inquiries:
 
@@ -46,23 +46,27 @@ Before describing my smart home system, let’s review the main types of network
 ### 1. Point-to-Point Topology
 
 A direct connection between two devices — for example, a sensor connected directly to a controller.  
+  
 <ins>**Advantages:**</ins> Very simple and reliable for two-device communication. No interference or congestion from other devices.  
 <ins>**Disadvantages:**</ins> Not scalable — each new device needs its own connection. Limited use in larger systems.
 
 ### 2. Bus Topology
 
 All devices share a single communication line (bus).  
+  
 <ins>**Advantages:**</ins> Cost-effective and uses less cabling. Simple linear structure.  
 <ins>**Disadvantages:**</ins> Difficult to troubleshoot. A single cable fault can bring down the entire network. Data collisions can occur when many devices transmit at once.
 
 ### 3. Ring Topology
 Each device connects to exactly two others, forming a closed loop.  
+  
 <ins>**Advantages:**</ins> Predictable data flow and timing. Each device acts as a repeater, strengthening the signal.  
 <ins>**Disadvantages:**</ins> A single failure in the loop can interrupt the entire network. Adding or removing devices can be complex.
 
 ### 4. Star Topology
 
 All devices connect to a central hub or controller (such as a router or Home Assistant server).  
+  
 <ins>**Advantages:**</ins> Easy to set up and manage. A failure in one device doesn’t affect the others.  
 <ins>**Disadvantages:**</ins> If the central hub fails, the entire network stops working. Requires more cabling than other topologies.
 
@@ -76,6 +80,7 @@ A hierarchical combination of star networks connected in a tree-like structure.
 ### 6. Mesh Topology
 
 Each device connects to several others, creating multiple paths for data transmission.  
+  
 <ins>**Advantages:**</ins> Very reliable and fault-tolerant — if one path fails, data finds another route. Ideal for wireless IoT networks (like Zigbee or Thread).  
 <ins>**Disadvantages:**</ins> More complex setup and configuration. Higher communication overhead and cost.
 
